@@ -141,7 +141,7 @@ class NotificationHelper {
 
   static Future<void> showTextNotification(String title, String body, NotificationBodyModel? notificationBody, FlutterLocalNotificationsPlugin fln) async {
     const AndroidNotificationDetails androidPlatformChannelSpecifics = AndroidNotificationDetails(
-      'stackfood_delivery', 'stackfood_delivery name', playSound: true,
+      AppConstants.notificationChannelAndroid, AppConstants.notificationChannelAndroid, playSound: true,
       importance: Importance.max, priority: Priority.max, sound: RawResourceAndroidNotificationSound('notification'),
     );
     const NotificationDetails platformChannelSpecifics = NotificationDetails(android: androidPlatformChannelSpecifics);
@@ -154,7 +154,7 @@ class NotificationHelper {
       contentTitle: title, htmlFormatContentTitle: true,
     );
     AndroidNotificationDetails androidPlatformChannelSpecifics = AndroidNotificationDetails(
-      'stackfood_delivery channel id', 'stackfood_delivery name', importance: Importance.max,
+      AppConstants.notificationChannelAndroid, AppConstants.notificationChannelAndroid, importance: Importance.max,
       styleInformation: bigTextStyleInformation, priority: Priority.max, playSound: true,
       sound: const RawResourceAndroidNotificationSound('notification'),
     );
@@ -171,7 +171,7 @@ class NotificationHelper {
       summaryText: body, htmlFormatSummaryText: true,
     );
     final AndroidNotificationDetails androidPlatformChannelSpecifics = AndroidNotificationDetails(
-      'stackfood_delivery', 'stackfood_delivery name',
+      AppConstants.notificationChannelAndroid, AppConstants.notificationChannelAndroid,
       largeIcon: FilePathAndroidBitmap(largeIconPath), priority: Priority.max, playSound: true,
       styleInformation: bigPictureStyleInformation, importance: Importance.max,
       sound: const RawResourceAndroidNotificationSound('notification'),

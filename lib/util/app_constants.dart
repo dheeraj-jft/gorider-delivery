@@ -6,6 +6,7 @@ class AppConstants {
   static const double appVersion = 7.5;
 
   static const String baseUrl = 'https://app.goorder.store';
+  static const String notificationChannelAndroid = 'goorder';
   static const String configUri = '/api/v1/config';
   static const String forgerPasswordUri = '/api/v1/auth/delivery-man/forgot-password';
   static const String verifyTokenUri = '/api/v1/auth/delivery-man/verify-token';
