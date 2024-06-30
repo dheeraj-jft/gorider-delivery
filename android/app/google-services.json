@@ -1,34 +1,165 @@
 {
   "project_info": {
-    "project_number": "1049699819506",
-    "project_id": "stackfood-bd3ee",
-    "storage_bucket": "stackfood-bd3ee.appspot.com"
+    "project_number": "455620224473",
+    "project_id": "goorderbiz-74571",
+    "storage_bucket": "goorderbiz-74571.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1049699819506:android:490a8d64ef54403889956b",
+        "mobilesdk_app_id": "1:455620224473:android:b270c87b78f5a5a9c425c8",
         "android_client_info": {
-          "package_name": "com.sixamtech.stack_food_delivery"
+          "package_name": "com.goorder.customer"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1049699819506-r9agjij7oigjssbffc2g6i2glegb21io.apps.googleusercontent.com",
+          "client_id": "455620224473-2m4eb9gv0qu044evelv5rec8hbhsv0l7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goorder.customer",
+            "certificate_hash": "b1684ad57e16ca40b4f66f9845c12c268a83e6c1"
+          }
+        },
+        {
+          "client_id": "455620224473-pq8gpsrho9rm4iriub27n69is79jtgd0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goorder.customer",
+            "certificate_hash": "0083f64a6827dbdd8fa41adb533c6a74d4c31ff4"
+          }
+        },
+        {
+          "client_id": "455620224473-fb0qthoc9h2noep4o2jlj2cuu9uij9gq.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBScz65YN8J9YoKdtKPl4ecCB3Vkc7iNL8"
+          "current_key": "AIzaSyCYFFuvGWuB1Rx8vG-_Hlg3BOehc-yJYwY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1049699819506-r9agjij7oigjssbffc2g6i2glegb21io.apps.googleusercontent.com",
+              "client_id": "455620224473-fb0qthoc9h2noep4o2jlj2cuu9uij9gq.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "455620224473-t3ofbi7hdk9eu5b34npdm3i33fto38cr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goorder.customer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455620224473:android:19cfef579024759ac425c8",
+        "android_client_info": {
+          "package_name": "com.goorder.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455620224473-fb0qthoc9h2noep4o2jlj2cuu9uij9gq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYFFuvGWuB1Rx8vG-_Hlg3BOehc-yJYwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455620224473-fb0qthoc9h2noep4o2jlj2cuu9uij9gq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "455620224473-t3ofbi7hdk9eu5b34npdm3i33fto38cr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goorder.customer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455620224473:android:0324400035ffee7cc425c8",
+        "android_client_info": {
+          "package_name": "com.goorder.merchant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455620224473-fb0qthoc9h2noep4o2jlj2cuu9uij9gq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYFFuvGWuB1Rx8vG-_Hlg3BOehc-yJYwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455620224473-fb0qthoc9h2noep4o2jlj2cuu9uij9gq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "455620224473-t3ofbi7hdk9eu5b34npdm3i33fto38cr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goorder.customer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455620224473:android:9bb8594dca52be73c425c8",
+        "android_client_info": {
+          "package_name": "com.goorder.rider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455620224473-fb0qthoc9h2noep4o2jlj2cuu9uij9gq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYFFuvGWuB1Rx8vG-_Hlg3BOehc-yJYwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455620224473-fb0qthoc9h2noep4o2jlj2cuu9uij9gq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "455620224473-t3ofbi7hdk9eu5b34npdm3i33fto38cr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goorder.customer"
+              }
             }
           ]
         }
